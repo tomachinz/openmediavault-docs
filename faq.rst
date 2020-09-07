@@ -23,6 +23,14 @@ Can I use a usb flash drive (stick) for installing the system?
 	few weeks of usage. Most common symptom is basic command execution does
 	not work, denied login, etc. More information `here <https://forum.openmediavault.org/index.php/Thread/6438-Tutorial-Experimental-Third-party-Plugin-available-Reducing-OMV-s-disk-writes-al/>`_.
 
+
+What listening ports does OMV request by default?
+    - 80 webserver
+	- 443 webserver
+	- 445 samba
+	- xxx afp (for time machine)
+	- Bonjour Time Machine broadcast via SMB/AFP (is this a plug-in yeah?)
+
 What are the default credentials for the UI?
     Use the user 'admin' and the password 'openmediavault' for the first login.
 
